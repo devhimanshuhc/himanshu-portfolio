@@ -1,21 +1,34 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Himanshu Chauhan",
+  "name": "Himanshu Chauhan",
+  "ascii": "hmanshu Chauhan",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "devhimanshuhc",
+    "linkedin": "devhimanshuhc",
+    "instagram": "hiimanshu.chauhan",
+    "spotify": "olh0i6r4zh3ee3cugkf0ys4vg?si=35ca5b05e0524db6"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
-  },
+  "projects": [
+    {
+      "name": "ReVio",
+      "url": "https://revio.vercel.app/"
+    },
+
+    {
+      "name": "Crypto Realms",
+      "url": "https://cryptorealms.vercel.app/"
+    },
+    {
+      "name": "Muchas",
+      "url": "https://muchas.vercel.app/"
+    }
+  ],
+  "email": "devhimanshuhc@gmail.com",
+  "ps1_hostname": "portfolio",
+  "ps1_username": "it's me, Himanshu Chauhan",
+  "repo": "https://github.com/devhimanshuhc",
+  "resume_url": "https://drive.google.com/file/d/18ZCYI_5LDe4rBpaeRtehJ527Y0n8YlYc/view",
+
   "colors": {
     "light": {
       "background": "#FBF1C9",
@@ -27,13 +40,13 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
+      "background": "#1a1b1f",
       "foreground": "#E5E9F0",
       "yellow": "#5E81AC",
-      "green": "#A3BE8C",
+      "green": "#92ba6f",
       "gray": "#88C0D0",
       "blue": "#EBCB8B",
-      "red": "#BF616A"
+      "red": "#c65460"
     }
   }
 }
