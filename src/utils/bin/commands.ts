@@ -1,5 +1,4 @@
 // List of commands that do not require API calls
-
 import * as bin from './index';
 import config from '../../../config.json';
 
@@ -118,6 +117,25 @@ export const emacs = async (args?: string[]): Promise<string> => {
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
+};
+
+export const game = async (args?: string[]): Promise<string> => {
+  return `This is a guessing game. Type 'guess <your number>' to play. `;
+};
+
+export const guess = async (args: string[]): Promise<string> => {
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
+
+  const userGuess = parseInt(args[0], 10);
+  if (!isNaN(userGuess)) {
+    if (userGuess === randomNumber) {
+      return 'Congratulations! You guessed the correct number!';
+    } else {
+      return `Oops! Wrong guess. The correct number was ${randomNumber}.`;
+    }
+  } else {
+    return 'Please provide a valid number as your guess.';
+  }
 };
 
 // Banner
