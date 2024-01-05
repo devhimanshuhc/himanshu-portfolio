@@ -120,7 +120,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 export const game = async (args?: string[]): Promise<string> => {
-  return `This is a guessing game. Type 'guess <your_number>' to play. `;
+  return `This is a guessing game. Type 'guess (number)' to play. `;
 };
 
 export const guess = async (args: string[]): Promise<string> => {
